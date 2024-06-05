@@ -1,0 +1,26 @@
+echo print me ! > a.txt
+echo this is add >> a.txt
+echo print relief
+set \a var = 1+2
+set \p var2 = asdf
+set
+set va
+set var3
+echo %var2%
+set var2 =
+echo %var2%
+if exist 1.txt ( echo has this file ) else ( echo didnt has file )
+if exist 2.txt ( echo has this file ) else ( echo didnt has file )
+if NOT exist 2.txt ( echo has this file ) else ( echo didnt has file )
+if exist F:\\a.txt ( echo has this file ) else ( echo didnt has file )
+if exist F:\\a.txt ( set \p x = qq )
+if NOT exist 2.txt ( copy s1.txt s2.txt )
+if 1 == 2 ( echo 1 equal 2 ) else ( echo 1 not equal 2 )
+if NOT 1 == 2 ( echo 1 equal 2 ) else ( echo 1 not equal 2 )
+for %%j in (apc,bsd,caq) do set \p p1 = %%j
+for /d %%i in (1,1,5) do echo a
+for /d %%j in (1,1,5) do echo %%j
+for /d %%i in (2,2,6) do set \p p2 = %%i
+for /f %%c in (f1.txt) do echo %%c
+for /f " skip=3 tokens=1,4 delims= " %c in (f2.txt) do @echo %c %d %e
+for

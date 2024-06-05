@@ -1,0 +1,10 @@
+: again
+echo a
+echo b
+echo c
+goto again
+for
+
+
+
+    
